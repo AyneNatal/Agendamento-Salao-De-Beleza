@@ -2,6 +2,10 @@ public class Servico {
     private String tipo;
     private String descricao;
 
+    public Servico(String tipo) {
+        this.tipo = tipo;
+    }
+
     public Servico(String tipo, String descricao) {
         this.tipo = tipo;
         this.descricao = descricao;
